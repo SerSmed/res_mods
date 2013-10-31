@@ -10,5 +10,5 @@
  * Формат ссылки: ${"путь к файлу конфига":"."}
  * // - закомментировать строку (использоваться не будет)
  */
-${"configs/@Default/@xvm.xc":"."}
-//${"configs/SerSmed/@xvm.xc":"."}
+//${"configs/@Default/@xvm.xc":"."}
+${"configs/SerSmed/@xvm.xc":"."}
