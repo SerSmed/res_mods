@@ -40,6 +40,7 @@ CustomCommandRose by hedger // WOT id: tehHedger
 				<Icon>Reload</Icon>
 				<Text>На КД, осталось %(reload)s секунд</Text>
 				<ChatMode>Team</ChatMode>
+				<Hotkey>KEY_C</Hotkey>
 			</Command>
 
 			<Command>
@@ -218,9 +219,9 @@ CustomCommandRose by hedger // WOT id: tehHedger
 			<Command>
 				<Title>Перезаряжаюсь!</Title>
 				<Icon>Reload</Icon>
-				<Command>RELOADINGGUN</Command>
-				<Text></Text>
+				<Text>На КД, осталось %(reload)s секунд</Text>
 				<ChatMode>Team</ChatMode>
+				<Hotkey>KEY_C</Hotkey>
 			</Command>
 
 			<Command>
