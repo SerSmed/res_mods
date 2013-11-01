@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <!-- 
 CustomCommandRose by hedger // WOT id: tehHedger
 Конфигурационный файл мода "Кастомизируемая роза команд". 
@@ -38,9 +38,8 @@ CustomCommandRose by hedger // WOT id: tehHedger
 			<Command>
 				<Title>Перезаряжаюсь!</Title>
 				<Icon>Reload</Icon>
-				<Text>на КД, осталось %(reload)s секунд</Text>
+				<Text>На КД, осталось %(reload)s секунд</Text>
 				<ChatMode>Team</ChatMode>
-				<Hotkey>KEY_C</Hotkey> 
 			</Command>
 
 			<Command>
@@ -70,7 +69,7 @@ CustomCommandRose by hedger // WOT id: tehHedger
 				
 
 			</Command>
-			<Command>
+						<Command>
 				<Title>Приветствие</Title>
 				<Icon>Support</Icon>
 				<Text>%(randpart)s!</Text>
@@ -89,6 +88,8 @@ CustomCommandRose by hedger // WOT id: tehHedger
 				</Variants>
 				<Hotkey>KEY_LALT+KEY_I</Hotkey>
 			</Command>
+			
+
 		</CommonCommands>
 
 		<TeamCommands>
@@ -164,6 +165,7 @@ CustomCommandRose by hedger // WOT id: tehHedger
 			<Command>
 				<Title>Перезаряжаюсь!</Title>
 				<Icon>Reload</Icon>
+
 				<Command>RELOADINGGUN</Command>
 				<Text></Text>
 				<ChatMode>Team</ChatMode>
@@ -244,15 +246,6 @@ CustomCommandRose by hedger // WOT id: tehHedger
 				<Text></Text>
 				<ChatMode>Team</ChatMode>
 			</Command>
-
-			<Command>
-				<Title>Перезаряжаюсь!</Title>
-				<Icon>Reload</Icon>
-				<Text>на КД, осталось %(reload)s секунд</Text>
-				<ChatMode>Team</ChatMode>
-				<Hotkey>KEY_C</Hotkey> 
-			</Command>
-
 		</CommonCommands>
 
 		<TeamCommands>

@@ -33,7 +33,7 @@
     "formatRightNick": "<font size='12'>{{name}}</font><font color='#CC99'>{{clan}}</font>",
     // Display format for the left panel (macros allowed, see readme-en.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatLeftVehicle": "<textformat tabstops='[0,54,73,100,118,122,143]'><tab><font size='11'>{{vehicle}}</font><font face='Lucida Console' size='9'><tab><font color='{{c:kb}}'>{{kb}}</font><tab><b><font color='{{c:wn}}'>{{wn}}</font></b><tab><font color='{{c:rating}}'>{{rating}}</font><tab>|<tab><font color='{{c:t-rating}}'>{{t-rating:3}}</font><tab><font color='{{c:t-battles}}'>{{t-battles:4}}</font></font></textformat>",
+    "formatLeftVehicle": "<textformat tabstops='[54,73,100,118,122,143]'><font size='11'>{{vehicle}}</font><font face='Lucida Console' size='9'><tab><font color='{{c:kb}}'>{{kb}}</font><tab><b><font color='{{c:wn}}'>{{wn}}</font></b><tab><font color='{{c:rating}}'>{{rating}}</font><tab>|<tab><font color='{{c:t-rating}}'>{{t-rating:3}}</font><tab><font color='{{c:t-battles}}'>{{t-battles:4}}</font></font></textformat>",
     // Display format for the right panel (macros allowed, see readme-en.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
     "formatRightVehicle": "<textformat tabstops='[0,20,42,46,67,92,113]'><font face='Lucida Console' size='9'><tab><font color='{{c:t-rating}}'>{{t-rating:3}}</font><tab><font color='{{c:t-battles}}'>{{t-battles:4}}</font><tab>|<tab><font color='{{c:kb}}'>{{kb}}</font><tab><b><font color='{{c:wn}}'>{{wn}}</font></b><tab><font color='{{c:rating}}'>{{rating}}</font><tab><font size='10'>{{vehicle}}</font></textformat>"
