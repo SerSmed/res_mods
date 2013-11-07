@@ -90,6 +90,13 @@ CustomCommandRose by hedger // WOT id: tehHedger
 				<Hotkey>KEY_LALT+KEY_I</Hotkey>
 			</Command>
 			
+			<Command>
+			<Title>Свет</Title> 
+			<Icon>Reload</Icon> 
+			<Text>Я в "засвете", %(ownPos)s</Text> 
+			<ChatMode>Team</ChatMode>	
+			<Hotkey>KEY_T</Hotkey>
+			</Command>			
 
 		</CommonCommands>
 
@@ -246,6 +253,15 @@ CustomCommandRose by hedger // WOT id: tehHedger
 				<Command>NEGATIVE</Command>
 				<Text></Text>
 				<ChatMode>Team</ChatMode>
+			</Command>
+			
+			<Command>
+				<Title>Свет</Title>
+				<Icon>AttackSPG</Icon>
+				<Text>Свелся на квадрат %(viewPos)s, Дайте свет!</Text>
+				<ChatMode>Team</ChatMode>
+				<Ping>%(viewPos)s</Ping>
+				<Hotkey>KEY_T</Hotkey>
 			</Command>
 		</CommonCommands>
 
