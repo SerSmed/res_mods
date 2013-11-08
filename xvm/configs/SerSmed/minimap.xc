@@ -34,8 +34,7 @@
     "labels": ${"minimapLabels.xc":"labels"},
     // Minimap circles.
     // Круги на миникарте.
-    //"circles": ${"minimapCircles.xc":"circles"},
-	"circles": ${"../../tankrange.xc":"circles"},
+    "circles": ${"minimapCircles.xc":"circles"},
     // Minimap lines.
     // Линии на миникарте.
     "lines": ${"minimapLines.xc":"lines"},
